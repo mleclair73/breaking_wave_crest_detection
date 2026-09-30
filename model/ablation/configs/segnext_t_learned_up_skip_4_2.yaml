@@ -1,0 +1,13 @@
+id: segnext_t_learned_up_skip_4_2
+label: SegNeXt-T learned upsampling + H/4 and H/2 skips
+arch: segnext
+decoder_type: learned_up
+decoder_skips: [4, 2]
+decoder_upsample_channels: [128, 64, 32]
+decoder_tap_half_channels: 32
+drop_path_rate: 0.1
+dropout_ratio: 0.1
+padding_mode: reflect
+ham_kwargs: {MD_S: 1, MD_R: 16, TRAIN_STEPS: 6, EVAL_STEPS: 7}
+pretrained_path: pretrained_weights/segnext_tiny_512x512_ade_160k.pth
+output_dir: outputs/runs/segnext_t_learned_up_skip_4_2

@@ -1,0 +1,43 @@
+{
+  "image_count": 20,
+  "source_video_count": 9,
+  "source_date_count": 8,
+  "current_dataset_date_overlap": [],
+  "geometry": {
+    "all_images": [
+      512,
+      500
+    ]
+  },
+  "orientation": "RGB source rows -> (cross_shore,time,RGB) -> flipud once",
+  "strict_quality_pass_count": 14,
+  "least_missing_fallback_count": 2,
+  "brightness_override_count": 3,
+  "lighting_override_count": 1,
+  "selection_mode_counts": {
+    "brightness_override": 3,
+    "least_missing_fallback": 2,
+    "lighting_override": 1,
+    "strict_quality_pass": 14
+  },
+  "max_missing_pixel_fraction": 0.178723,
+  "crops_with_full_zero_time_columns": 3,
+  "quality_gates": {
+    "top_no_data_margin_px_max": 78,
+    "zero_pixels_outside_top_margin_max": 2048,
+    "full_zero_time_columns": 0,
+    "saturated_pixel_fraction_max": 0.25
+  },
+  "missing_data_policy": "Prefer a synchronized window passing the frozen v6 gates; when none exists, retain the fixed 500x512 geometry and planned yFRF rows and select the window that minimizes worst-crop then total missing-pixel fraction before saturation. This preserves real near-horizon brightness rather than selecting blank frames.",
+  "source_video_sha256": {
+    "ArgusFF_20210928T223100Z_RectifiedVideo.avi": "047ea7a135b7951105870cee461dd9b9cbd1a1cc19f62439042904ed6da29754",
+    "ArgusFF_20210922T143100Z_RectifiedVideo.avi": "772c11df97dba34998eac616414f87a690721ada38241118a50f853b63d60452",
+    "ArgusFF_20210923T130100Z_RectifiedVideo.avi": "92ddb7308b25eced221fa169bf456bc6ef141bf2574f0ddf3900aa07b3c1b917",
+    "ArgusFF_20210924T120100Z_RectifiedVideo.avi": "1e9a34077b4cf89b5afd8255e88059e63e11eaed0b8b2550142092588bca9acd",
+    "ArgusFF_20210924T203100Z_RectifiedVideo.avi": "f1feac812f2c16a5c10c5224f95444efd500a5d568b47e0b0a35d039640c6225",
+    "ArgusFF_20211006T143100Z_RectifiedVideo.avi": "ba5ebb1fc87e452c93cb72d09a4ae77d7dab3ef3aad66dd74742f790c05f1801",
+    "ArgusFF_20210927T110100Z_RectifiedVideo.avi": "8dc052b00a19eef3874ab4cb7b5242b2dd7d37f8772704be71edea58cb884e4b",
+    "ArgusFF_20210925T163100Z_RectifiedVideo.avi": "843bb586cfa18fdbc7b551977904003ec08c836333bc289b017f14c1214d44d3",
+    "ArgusFF_20211008T133100Z_RectifiedVideo.avi": "1afb354b7a88b7120605cde2fb650503ba4c95354eadb2ef7a8fa12039474602"
+  }
+}

@@ -1,0 +1,8 @@
+version: 1
+common_config: ablation/configs/common.yaml
+output_root: outputs
+models:
+  - config: ablation/configs/segnext_t_learned_up_skip_4_2.yaml
+    table: true
+    ood: true
+    ood_comparison: true

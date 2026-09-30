@@ -1,0 +1,148 @@
+{
+  "status": "reviewed/canonical",
+  "annotation_status": "done",
+  "label_status": "annotated",
+  "images": 20,
+  "breaker_polylines": 1313,
+  "polyline_vertices": 4138,
+  "polyline_source_counts": {
+    "file": 860,
+    "manual": 453
+  },
+  "source_archive": "cvat_job_22_export_20260918.zip",
+  "source_archive_sha256": "683f8cb844fb063843077b5f13f3f10bcbdac62b658cc06837fcd20cc3277189",
+  "source_annotations_sha256": "087d400da4e2597f7e83ab87b7e539b596dbee072699e9d225bcaf29cc0eebe1",
+  "canonical_annotations_sha256": "b176988266439544c785e0d34cfb23dbfb18de1718da40429518e572e302c0d6",
+  "mapping_sha256": "fce65dca2c1cd1785d850a741fec886614dd469ff0d79f0b1d6687b229e5841f",
+  "annotation_overlay_sha256": "55ce0fba89f4c825bc815614fc0785154050a5e4e691717df5543e8a31f424b6",
+  "mask_sha256": {
+    "mask_ood_test_001.png": "06c7dd9bb22f0fe9f18442daeb07b9052bd566484e5bf922f4d37f9b3fcefd0e",
+    "mask_ood_test_002.png": "69a0bd7d1f9c0c6c4edd10c4ae34b64a3a6355bca96bde62f459aa59ec0a16a9",
+    "mask_ood_test_003.png": "c94a97c96e2dc52a9c7a306024b3e8ecdb9c71a5173d750d8e0eb90f191bb352",
+    "mask_ood_test_004.png": "730e5972732d979bc428573fd924fc79c30088fc5e2dd214eca4dc67ba002a06",
+    "mask_ood_test_005.png": "db52c0da3e53b5b325018e698d43317fe27b2d079024c81d101fc9fbfb16091f",
+    "mask_ood_test_006.png": "8dcaf3cf34a130a3276946ba422eb4ec77c96b1952610bbf72c75aac5acc3a68",
+    "mask_ood_test_007.png": "05987ad64d1b90cafc477ac83a07a178f9d6e4c0048bfa2f0f75341a25a2c20f",
+    "mask_ood_test_008.png": "8250125fcf42608401f0f9bea0f7e3b53b1a9523cd0784d33b723b0b25589af9",
+    "mask_ood_test_009.png": "4a35af86745e74f8e3fe8b49537d731491604ae5d94095f4dade760d4ab181fd",
+    "mask_ood_test_010.png": "1bdfd39677a5295bb4b189db00ae002f757e2a3ac09a7556bd05b98b6daa2ee2",
+    "mask_ood_test_011.png": "22ad7f07ce426b5b2751e6090d7232834e9c2cec7224fd23ae9edc77336fa5f1",
+    "mask_ood_test_012.png": "7da8dc25682b4081e60603531c63e398519fb19be79900ede845bc51d0c8b33a",
+    "mask_ood_test_013.png": "650312e4f37df96962c7d01f82a4c65827a81318f9d881cf347076c6d76752cd",
+    "mask_ood_test_014.png": "bb02460033dea6637308e26927045aa203b95446ecc3e889af59225986a0af48",
+    "mask_ood_test_015.png": "d5b096db5d66efe9f590d20f3d9d6e582308b5c0abbe8d0c151029f945260f8d",
+    "mask_ood_test_016.png": "3f47597c527b837e8872ca7de689831761ac3456b31f7092b7023e315a8f37ef",
+    "mask_ood_test_017.png": "525a23ccc09dec4d7bce0103fdf14282357e92954018b82d9d7e51c0293592ca",
+    "mask_ood_test_018.png": "89ed9d935d70e8b142dbfe3c3ac76cf367c723960213754632b21f676bb98745",
+    "mask_ood_test_019.png": "568f3d835ef9ee9f77dbf658c3fc4612e7534ff3852cb3a29ebadc8c73e2ad65",
+    "mask_ood_test_020.png": "b9ffd0301a0887869b60887cb13c22282bea25205671b6c44d0bf929b1dfd92f"
+  },
+  "job_id": "22",
+  "job_updated_at": "2026-09-18 18:12:14.317298+00:00",
+  "export_dumped_at": "2026-09-18 18:12:19.793811+00:00",
+  "orientation": "stored model/CVAT orientation; no flip",
+  "rasterization": "rounded CVAT vertices; OpenCV 1-pixel LINE_8 polylines",
+  "generated_utc": "2026-09-18T18:19:07.816716+00:00",
+  "images_detail": [
+    {
+      "image_name": "ood_test_001.png",
+      "breaker_polylines": 46,
+      "polyline_vertices": 99
+    },
+    {
+      "image_name": "ood_test_002.png",
+      "breaker_polylines": 60,
+      "polyline_vertices": 162
+    },
+    {
+      "image_name": "ood_test_003.png",
+      "breaker_polylines": 40,
+      "polyline_vertices": 109
+    },
+    {
+      "image_name": "ood_test_004.png",
+      "breaker_polylines": 57,
+      "polyline_vertices": 190
+    },
+    {
+      "image_name": "ood_test_005.png",
+      "breaker_polylines": 68,
+      "polyline_vertices": 211
+    },
+    {
+      "image_name": "ood_test_006.png",
+      "breaker_polylines": 70,
+      "polyline_vertices": 206
+    },
+    {
+      "image_name": "ood_test_007.png",
+      "breaker_polylines": 63,
+      "polyline_vertices": 223
+    },
+    {
+      "image_name": "ood_test_008.png",
+      "breaker_polylines": 48,
+      "polyline_vertices": 190
+    },
+    {
+      "image_name": "ood_test_009.png",
+      "breaker_polylines": 67,
+      "polyline_vertices": 211
+    },
+    {
+      "image_name": "ood_test_010.png",
+      "breaker_polylines": 63,
+      "polyline_vertices": 219
+    },
+    {
+      "image_name": "ood_test_011.png",
+      "breaker_polylines": 62,
+      "polyline_vertices": 220
+    },
+    {
+      "image_name": "ood_test_012.png",
+      "breaker_polylines": 79,
+      "polyline_vertices": 243
+    },
+    {
+      "image_name": "ood_test_013.png",
+      "breaker_polylines": 102,
+      "polyline_vertices": 317
+    },
+    {
+      "image_name": "ood_test_014.png",
+      "breaker_polylines": 89,
+      "polyline_vertices": 297
+    },
+    {
+      "image_name": "ood_test_015.png",
+      "breaker_polylines": 71,
+      "polyline_vertices": 210
+    },
+    {
+      "image_name": "ood_test_016.png",
+      "breaker_polylines": 56,
+      "polyline_vertices": 172
+    },
+    {
+      "image_name": "ood_test_017.png",
+      "breaker_polylines": 65,
+      "polyline_vertices": 226
+    },
+    {
+      "image_name": "ood_test_018.png",
+      "breaker_polylines": 58,
+      "polyline_vertices": 186
+    },
+    {
+      "image_name": "ood_test_019.png",
+      "breaker_polylines": 75,
+      "polyline_vertices": 232
+    },
+    {
+      "image_name": "ood_test_020.png",
+      "breaker_polylines": 74,
+      "polyline_vertices": 215
+    }
+  ]
+}

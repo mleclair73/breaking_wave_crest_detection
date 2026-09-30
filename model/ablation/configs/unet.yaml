@@ -1,0 +1,5 @@
+id: unet
+label: U-Net
+arch: unet
+encoder_pretrained: true
+output_dir: outputs/runs/unet

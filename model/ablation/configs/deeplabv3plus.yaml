@@ -1,0 +1,7 @@
+id: deeplabv3plus
+label: DeepLabV3+
+arch: deeplabv3plus
+encoder_name: mobilenet_v2
+encoder_output_stride: 8
+encoder_pretrained: true
+output_dir: outputs/runs/deeplabv3plus

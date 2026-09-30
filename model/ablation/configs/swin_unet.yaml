@@ -1,0 +1,8 @@
+id: swin_unet
+label: Swin U-Net
+arch: swin_unet
+swin_encoder: swin_tiny_patch4_window7_224
+encoder_pretrained: true
+drop_path_rate: 0.1
+dropout_ratio: 0.1
+output_dir: outputs/runs/swin_unet

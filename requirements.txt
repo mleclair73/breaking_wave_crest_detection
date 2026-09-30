@@ -1,0 +1,11 @@
+# Compatibility installer for the platform-neutral runtime plus manuscript
+# analysis tools. Dependencies are declared in pyproject.toml; prefer
+# `uv sync --locked --extra analysis` for the exact environment in uv.lock.
+#
+# CUDA training deliberately uses the container's matched PyTorch/CUDA build:
+# run `bash model/setup.sh` instead of installing this file on a GPU pod.
+#
+#   python3 -m venv .venv && source .venv/bin/activate
+#   pip install -r requirements.txt
+#
+-e .[analysis,acquisition]

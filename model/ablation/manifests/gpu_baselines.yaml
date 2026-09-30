@@ -1,0 +1,11 @@
+version: 1
+common_config: ablation/configs/common.yaml
+output_root: outputs
+models:
+  - {config: ablation/configs/unet.yaml, table: true}
+  - {config: ablation/configs/attention_unet.yaml, table: true}
+  - {config: ablation/configs/deeplabv3plus.yaml, table: true}
+  - config: ablation/configs/swin_unet.yaml
+    table: true
+    ood: true
+    ood_comparison: true

@@ -1,0 +1,14 @@
+# Production inference for the 36 primary Argus videos.
+model_path: ${OUTPUTS_DIR}/promoted/segnext_t_learned_up_skip_4_2/best_model.pth
+input_path: ${DATA_ROOT}/video_dataset/argus
+output_path: ${PREDICTIONS_DIR}/argus
+device: auto
+patch_size: 224
+chunk_size: 224
+overlap_y: 86
+overlap_x: 0
+batch_size: 32
+transect_group_size: 64
+alongshore_smooth: 2.0
+detection_threshold: 0.48
+temporal_overlap: 0.10

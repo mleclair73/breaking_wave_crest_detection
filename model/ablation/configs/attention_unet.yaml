@@ -1,0 +1,5 @@
+id: attention_unet
+label: Attention U-Net
+arch: attention_unet
+encoder_pretrained: true
+output_dir: outputs/runs/attention_unet

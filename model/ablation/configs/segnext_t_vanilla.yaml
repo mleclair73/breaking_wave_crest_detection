@@ -1,0 +1,10 @@
+id: segnext_t_vanilla
+label: SegNeXt-T vanilla
+arch: segnext
+decoder_type: ham
+drop_path_rate: 0.1
+dropout_ratio: 0.1
+padding_mode: reflect
+ham_kwargs: {MD_S: 1, MD_R: 16, TRAIN_STEPS: 6, EVAL_STEPS: 7}
+pretrained_path: pretrained_weights/segnext_tiny_512x512_ade_160k.pth
+output_dir: outputs/runs/segnext_t_vanilla

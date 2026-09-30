@@ -1,0 +1,30 @@
+study_version: v1
+augmentation_version: authoritative_2026_09_23
+dataset_root: data/full_split
+ood_dataset_root: data/ood_test
+image_size: 224
+in_channels: 3
+num_classes: 2
+patches_per_image: 64
+augment_train: true
+epochs: 30
+batch_size: 32
+num_workers: 8
+torch_num_threads: 8
+lr: 0.0003
+weight_decay: 0.05
+seed: 42
+early_stop_patience: 12
+select_metric: iou_fg
+persistent_workers: true
+prefetch_factor: 4
+cache_images: true
+visualize_every: 5
+loss_params:
+  weight: 0.2
+  delta: 0.6
+  gamma: 0.75
+  gamma_focal: 2.0
+# Complete-image Hanning-tiled evaluation policy. This is intentionally
+# independent of the overlap embedded in older training checkpoints.
+tile_overlap: 86
