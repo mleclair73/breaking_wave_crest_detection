@@ -1,0 +1,86 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*~
+.idea/
+.vscode/
+
+# Python bytecode, tool caches, and local environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Python build and editable-install products
+*.egg-info/
+build/
+dist/
+
+# Logs and process state
+*.log
+*.out
+*.pid
+*.status
+status.tsv
+.training.lock
+
+# Generated run trees and model artifacts. The trailing slash on run_* is
+# intentional: launchers such as run_training.sh must remain visible to Git.
+run_*/
+runs/
+outputs/
+artifacts/
+predictions/
+model/operating_points_dice/
+tensorboard/
+events.out.tfevents.*
+worker_snapshots/
+*.pth
+*.pt
+*.ckpt
+
+# External scientific and video assets
+*.avi
+*.nc
+*.pdf
+pretrained_weights/
+model/data/**/*.png
+model/data/**/*.zip
+
+# Repository-level data are external. Keep acquisition/rebuild code and
+# provenance documentation versioned.
+/data/**
+!/data/**/
+!/data/**/README.md
+!/data/**/download.py
+!/data/**/SHA256SUMS
+!/data/**/*.py
+!/data/video_dataset/good_data_mask.nc
+
+# Keep dataset specifications under model/data versioned; annotations stay local.
+!model/data/**/*.csv
+!model/data/**/*.json
+model/data/**/*.xml
+!model/data/full_split/annotations_canonical.xml
+!model/data/ood_test/annotations_human_canonical.xml
+model/data/ood_test/annotation_status.json
+model/data/ood_test/preannotation_summary.json
+
+# Local-only work products
+scratchpad/
+temp.tex
+model/notes/
+seg_bak/
+CLAUDE.md
+AGENTS.md
+
+# Local GitHub release staging (not tracked)
+/release/
+/RELEASE.md

@@ -1,0 +1,7 @@
+version: 1
+common_config: ablation/configs/common.yaml
+output_root: outputs
+models:
+  - {config: ablation/configs/segnext_t_vanilla.yaml, table: true}
+  - {config: ablation/configs/segnext_t_learned_up.yaml, table: true}
+  - {config: ablation/configs/segnext_t_learned_up_skip_4.yaml, table: true}

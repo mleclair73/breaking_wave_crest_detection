@@ -1,0 +1,5 @@
+id: attention_unet
+label: Attention U-Net
+arch: attention_unet
+encoder_pretrained: true
+output_dir: outputs/model_ablation_final/final_aug_v1/runs/02_attention_unet
